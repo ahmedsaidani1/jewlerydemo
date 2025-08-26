@@ -60,9 +60,9 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4">Contact</h3>
             <div className="space-y-2 text-gray-400">
-              <p>hello@bellajewelry.com</p>
-              <p>+1 (555) 123-4567</p>
-              <p>123 Jewelry Lane<br />New York, NY 10001</p>
+              <p>gombry@gmail.com</p>
+              <p>+216 12 345 678</p>
+              <p>Tunis,Tunisia</p>
             </div>
           </div>
         </div>
