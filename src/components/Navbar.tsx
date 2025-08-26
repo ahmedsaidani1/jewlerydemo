@@ -30,11 +30,9 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2 group">
-            <div className="w-8 h-8 bg-gradient-to-br from-blue-200 to-blue-400 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
-              <Heart className="w-4 h-4 text-blue-500" />
-            </div>
+            
             <span className="text-xl font-bold text-gray-800 group-hover:text-blue-500 transition-colors duration-300">
-              Bella Jewelry
+              Gombry
             </span>
           </Link>
 

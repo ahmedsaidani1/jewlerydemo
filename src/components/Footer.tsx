@@ -16,10 +16,8 @@ const Footer = () => {
           {/* Brand */}
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center space-x-2 mb-4">
-              <div className="w-8 h-8 bg-gradient-to-br from-pink-400 to-blue-400 rounded-full flex items-center justify-center">
-                <Heart className="w-4 h-4 text-white" />
-              </div>
-              <span className="text-xl font-bold">Bella Jewelry</span>
+             
+              <span className="text-xl font-bold">Gombry</span>
             </div>
             <p className="text-gray-400 mb-6 max-w-md">
               Creating beautiful, handcrafted jewelry that celebrates your unique style and life's special moments.
@@ -31,7 +29,7 @@ const Footer = () => {
                   <a
                     key={social.name}
                     href={social.url}
-                    className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center text-gray-400 hover:text-white hover:bg-pink-500 transition-all duration-300"
+                    className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center text-gray-400 hover:text-white hover:bg-blue-500 transition-all duration-300"
                     aria-label={social.name}
                   >
                     <IconComponent className="w-5 h-5" />
@@ -71,7 +69,7 @@ const Footer = () => {
 
         <div className="border-t border-gray-800 mt-8 pt-8 text-center">
           <p className="text-gray-400">
-            © 2024 Bella Jewelry. Made with <Heart className="w-4 h-4 inline text-pink-500" /> for jewelry lovers.
+            © 2025 Gombry. Made with <Heart className="w-4 h-4 inline text-blue-500" /> for jewelry lovers.
           </p>
         </div>
       </div>
